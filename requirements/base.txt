@@ -20,4 +20,5 @@ coreapi==2.3.3  # https://github.com/core-api/python-client
 
 # Your custom
 django-taggit==0.22.2
+django-taggit-serializer==0.1.5
 
