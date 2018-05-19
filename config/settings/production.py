@@ -8,7 +8,9 @@ from .base import env
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env('DJANGO_SECRET_KEY')
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['example.com'])
+# ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['example.com'])
+# 위에꺼가 원래였으나 에러나서 아래로 바꿔줌
+ALLOWED_HOSTS = ["*"]
 
 # DATABASES
 # ------------------------------------------------------------------------------
