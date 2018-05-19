@@ -22,5 +22,5 @@ coreapi==2.3.3  # https://github.com/core-api/python-client
 django-taggit==0.22.2
 django-taggit-serializer==0.1.5
 django-rest-auth==0.9.3
-djangorestframework-jwt==1.110
+djangorestframework-jwt==1.11.0
 
