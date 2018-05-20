@@ -33,19 +33,19 @@ def create_notification(creator, to, notification_type, image=None, comment=None
 
     notification.save()
 
-    action = ''
+    action = ""
 
-    if notification_type == 'like':
+    if notification_type == "like":
 
-        action = 'liked your photo'
+        action = "liked your photo"
 
-    elif notification_type == 'comment':
+    elif notification_type == "comment":
 
-        action = 'commented on your photo'
+        action = "commented on your photo"
 
-    elif notification_type == 'follow':
+    elif notification_type == "follow":
 
-        action = 'followed you'
+        action = "followed you"
 
     url = "https://exp.host/--/api/v2/push/send"
     data = {
